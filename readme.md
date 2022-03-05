@@ -1,6 +1,6 @@
 <p align="center">
     <img src="https://github.com/rose-pine/rose-pine-theme/raw/main/assets/icon.png" width="80" />
-    <h2 align="center">Rosé Pine for App</h2>
+    <h2 align="center">Rosé Pine for DuckDuckGo</h2>
 </p>
 
 <p align="center">All natural pine, faux fur and a bit of soho vibes for the classy minimalist</p>
@@ -13,23 +13,34 @@
 
 ## Usage
 
-1. Open App
-2. Under settings, import `rose-pine.theme`
-3. Select `Rosé Pine` from the themes dropdown
+1. Visit <https://duckduckgo.com>
+2. Right click and select the “Inspect” button.
+3. Select the “Console” tab.
+4. If you are using Firefox, type `allow pasting`.
+5. Enter the following script:
+```js
+const theme = [
+	'21=FAF4ED', '7=FAF4ED', '8=575179', '9=D7827E', 'aa=907AA9',
+	'ae=g', 'j=FAF4ED', 'x=286983',
+];
+
+for (const item of theme) {
+  document.cookie = `${item}; max-age=126144000; samesite=lax; secure`;
+}
+```
+
+## Demo
+Visit this [link](https://duckduckgo.com/?k21=FAF4ED&k7=FAF4ED&k8=575179&k9=D7827E&kaa=907AA9&kae=g&kj=3FAF4ED&kx=286983)
+
+## Userscript
+Alternatively, use a [userscript manager extension](https://www.tampermonkey.net/). Install the userscript by clicking [this link](https://raw.githubusercontent.com/cobcobs/duckduckgo/main/theme.user.js)
 
 ## Gallery
 
-![Rosé Pine with App](assets/template.png)
+![homepage](assets/homepage.png)
+![search](assets/search.png)
 
 ## Thanks to
 
-- [You, it's you!](https://github.com/<username>)
-
-## Style guide
-
-> Be sure to remove this section 😌
-
-- Lowercase meta files, eg. `readme.md`
-- Repo name should be the simplest version of the app name, eg. iterm instead of iTerm2
-- Format repo description as "Soho vibes for App"
-- Generate and upload social image via [Rosé Pine Images](https://rose-pine-images.vercel.app)
+- [cobcobs](https://github.com/cobcobs)
+- [catppuccin duckduckgo repository](https://github.com/catppuccin/duckduckgo)
