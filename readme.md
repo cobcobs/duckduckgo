@@ -76,6 +76,3 @@ Alternatively, use a [userscript manager extension](https://www.tampermonkey.net
 
 - [cobcobs](https://github.com/cobcobs)
 - [catppuccin duckduckgo repository](https://github.com/catppuccin/duckduckgo)
-
-## Todo
-- Dark theme
