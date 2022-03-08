@@ -17,11 +17,37 @@
 2. Right click and select the “Inspect” button.
 3. Select the “Console” tab.
 4. If you are using Firefox, type `allow pasting`.
-5. Enter the following script:
+5. Enter one of the following scripts
+
+for rose-pine:
 ```js
 const theme = [
-	'21=FAF4ED', '7=FAF4ED', '8=575179', '9=D7827E', 'aa=907AA9',
-	'ae=g', 'j=FAF4ED', 'x=286983',
+  '1=-1', 'at=-1', 'ao=-1', 'aq=-1', 'ak=-1', 'ax=-1', 'av=1', 'ap=-1', 'au=-1', 'ay=b', 'ae=-1', '18=1',
+  '7=191724', 'j=191724', '9=9ccfd8', 'x=31748f', 'aa=c4a7e7', '8=e0def4', '21=191724',
+];
+
+for (const item of theme) {
+  document.cookie = `${item}; max-age=126144000; samesite=lax; secure`;
+}
+```
+
+for rose-pine-moon:
+```js
+const theme = [
+  '1=-1', 'at=-1', 'ao=-1', 'aq=-1', 'ak=-1', 'ax=-1', 'av=1', 'ap=-1', 'au=-1', 'ay=b', 'ae=-1', '18=1',
+  '7=191724', 'j=191724', '9=9ccfd8', 'x=3e8fb0', 'aa=c4a7e7', '8=e0def4', '21=191724',
+];
+
+for (const item of theme) {
+  document.cookie = `${item}; max-age=126144000; samesite=lax; secure`;
+}
+```
+
+for rose-pine-dawn:
+```js
+const theme = [
+  '1=-1', 'at=-1', 'ao=-1', 'aq=-1', 'ak=-1', 'ax=-1', 'av=1', 'ap=-1', 'au=-1', 'ay=b', 'ae=-1', '18=1',
+  '7=faf4ed', 'j=faf4ed', '9=d7827e', 'x=286983', 'aa=907aa9', '8=1f1d2e', '21=faf4ed',
 ];
 
 for (const item of theme) {
@@ -33,7 +59,10 @@ for (const item of theme) {
 Visit this [link](https://duckduckgo.com/?k21=FAF4ED&k7=FAF4ED&k8=575179&k9=D7827E&kaa=907AA9&kae=g&kj=3FAF4ED&kx=286983)
 
 ## Userscript
-Alternatively, use a [userscript manager extension](https://www.tampermonkey.net/). Install the userscript by clicking [this link](https://raw.githubusercontent.com/cobcobs/duckduckgo/main/theme.user.js)
+Alternatively, use a [userscript manager extension](https://www.tampermonkey.net/). Install the userscript by clicking one of the following links:
+- [rose-pine](https://raw.githubusercontent.com/cobcobs/duckduckgo/main/rose-pine.user.js)
+- [rose-pine-moon](https://raw.githubusercontent.com/cobcobs/duckduckgo/main/rose-pine-moon.user.js)
+- [rose-pine-dawn](https://raw.githubusercontent.com/cobcobs/duckduckgo/main/rose-pine-dawn.user.js)
 
 ## Gallery
 
