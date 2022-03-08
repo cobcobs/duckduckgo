@@ -56,7 +56,10 @@ for (const item of theme) {
 ```
 
 ## Demo
-Visit this [link](https://duckduckgo.com/?k21=FAF4ED&k7=FAF4ED&k8=575179&k9=D7827E&kaa=907AA9&kae=g&kj=3FAF4ED&kx=286983)
+Visit one of the following links:
+- [rose-pine](https://duckduckgo.com/?kae=-1&kah=ph-en%2Cuk-en&kl=ph-en&k1=-1&kat=-1&kao=-1&kaq=-1&kak=-1&kax=-1&kav=1&kap=-1&kau=-1&kay=b&k18=1&k7=191724&kj=191724&k9=9ccfd8&kx=31748f&kaa=c4a7e7&k8=e0def4&k21=191724)
+- [rose-pine-moon](https://duckduckgo.com/?kae=-1&kah=ph-en%2Cuk-en&kl=ph-en&k1=-1&kat=-1&kao=-1&kaq=-1&kak=-1&kax=-1&kav=1&kap=-1&kau=-1&kay=b&k18=1&k7=191724&kj=191724&k9=9ccfd8&kx=3e8fb0&kaa=c4a7e7&k8=e0def4&k21=191724)
+- [rose-pine-dawn](https://duckduckgo.com/?kae=-1&kah=ph-en%2Cuk-en&kl=ph-en&k1=-1&kat=-1&kao=-1&kaq=-1&kak=-1&kax=-1&kav=1&kap=-1&kau=-1&kay=b&k7=faf4ed&kj=faf4ed&k9=d7827e&kx=286983&kaa=907aa9&k8=1f1d2e&k21=faf4ed&k18=1)
 
 ## Userscript
 Alternatively, use a [userscript manager extension](https://www.tampermonkey.net/). Install the userscript by clicking one of the following links:
